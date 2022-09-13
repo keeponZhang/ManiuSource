@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\LS5.dir/objects.a
+D:\mingw64\bin\ar.exe cr CMakeFiles\LS5.dir/objects.a @CMakeFiles\LS5.dir\objects1.rsp
+D:\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\LS5.dir/objects.a -Wl,--no-whole-archive  -o LS5.exe -Wl,--out-implib,libLS5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LS5.dir\linklibs.rsp
