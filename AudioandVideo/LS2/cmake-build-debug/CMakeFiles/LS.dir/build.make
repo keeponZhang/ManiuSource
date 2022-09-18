@@ -76,27 +76,27 @@ include CMakeFiles/LS.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LS.dir/flags.make
 
-CMakeFiles/LS.dir/main2.c.obj: CMakeFiles/LS.dir/flags.make
-CMakeFiles/LS.dir/main2.c.obj: ../main2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\codeWorkSpace\ManiuSource\AudioandVideo\LS2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LS.dir/main2.c.obj"
-	E:\sofeware\clion\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LS.dir\main2.c.obj   -c F:\codeWorkSpace\ManiuSource\AudioandVideo\LS2\main2.c
+CMakeFiles/LS.dir/demo2.c.obj: CMakeFiles/LS.dir/flags.make
+CMakeFiles/LS.dir/demo2.c.obj: ../demo2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\codeWorkSpace\ManiuSource\AudioandVideo\LS2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LS.dir/demo2.c.obj"
+	E:\sofeware\clion\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LS.dir\demo2.c.obj   -c F:\codeWorkSpace\ManiuSource\AudioandVideo\LS2\demo2.c
 
-CMakeFiles/LS.dir/main2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LS.dir/main2.c.i"
-	E:\sofeware\clion\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\codeWorkSpace\ManiuSource\AudioandVideo\LS2\main2.c > CMakeFiles\LS.dir\main2.c.i
+CMakeFiles/LS.dir/demo2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LS.dir/demo2.c.i"
+	E:\sofeware\clion\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\codeWorkSpace\ManiuSource\AudioandVideo\LS2\demo2.c > CMakeFiles\LS.dir\demo2.c.i
 
-CMakeFiles/LS.dir/main2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LS.dir/main2.c.s"
-	E:\sofeware\clion\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\codeWorkSpace\ManiuSource\AudioandVideo\LS2\main2.c -o CMakeFiles\LS.dir\main2.c.s
+CMakeFiles/LS.dir/demo2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LS.dir/demo2.c.s"
+	E:\sofeware\clion\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\codeWorkSpace\ManiuSource\AudioandVideo\LS2\demo2.c -o CMakeFiles\LS.dir\demo2.c.s
 
 # Object files for target LS
 LS_OBJECTS = \
-"CMakeFiles/LS.dir/main2.c.obj"
+"CMakeFiles/LS.dir/demo2.c.obj"
 
 # External object files for target LS
 LS_EXTERNAL_OBJECTS =
 
-LS.exe: CMakeFiles/LS.dir/main2.c.obj
+LS.exe: CMakeFiles/LS.dir/demo2.c.obj
 LS.exe: CMakeFiles/LS.dir/build.make
 LS.exe: CMakeFiles/LS.dir/linklibs.rsp
 LS.exe: CMakeFiles/LS.dir/objects1.rsp

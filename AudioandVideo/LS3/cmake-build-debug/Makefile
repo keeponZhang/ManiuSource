@@ -58,19 +58,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = E:\sofeware\clion\software\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = E:\sofeware\clion\software\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Administrator\CLionProjects\LS3
+CMAKE_SOURCE_DIR = F:\codeWorkSpace\ManiuSource\AudioandVideo\LS3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Administrator\CLionProjects\LS3\cmake-build-debug
+CMAKE_BINARY_DIR = F:\codeWorkSpace\ManiuSource\AudioandVideo\LS3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = C:\Users\Administrator\CLionProjects\LS3\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	E:\sofeware\clion\software\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	E:\sofeware\clion\software\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\CLionProjects\LS3\cmake-build-debug\CMakeFiles C:\Users\Administrator\CLionProjects\LS3\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\codeWorkSpace\ManiuSource\AudioandVideo\LS3\cmake-build-debug\CMakeFiles F:\codeWorkSpace\ManiuSource\AudioandVideo\LS3\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\CLionProjects\LS3\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\codeWorkSpace\ManiuSource\AudioandVideo\LS3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,32 +142,32 @@ LS3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS3.dir\build.make CMakeFiles/LS3.dir/build
 .PHONY : LS3/fast
 
-main6.obj: main6.c.obj
+main5.obj: main5.c.obj
 
-.PHONY : main6.obj
+.PHONY : main5.obj
 
 # target to build an object file
-main6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS3.dir\build.make CMakeFiles/LS3.dir/main6.c.obj
-.PHONY : main6.c.obj
+main5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS3.dir\build.make CMakeFiles/LS3.dir/main5.c.obj
+.PHONY : main5.c.obj
 
-main6.i: main6.c.i
+main5.i: main5.c.i
 
-.PHONY : main6.i
+.PHONY : main5.i
 
 # target to preprocess a source file
-main6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS3.dir\build.make CMakeFiles/LS3.dir/main6.c.i
-.PHONY : main6.c.i
+main5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS3.dir\build.make CMakeFiles/LS3.dir/main5.c.i
+.PHONY : main5.c.i
 
-main6.s: main6.c.s
+main5.s: main5.c.s
 
-.PHONY : main6.s
+.PHONY : main5.s
 
 # target to generate assembly for a file
-main6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS3.dir\build.make CMakeFiles/LS3.dir/main6.c.s
-.PHONY : main6.c.s
+main5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS3.dir\build.make CMakeFiles/LS3.dir/main5.c.s
+.PHONY : main5.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LS3
-	@echo ... main6.obj
-	@echo ... main6.i
-	@echo ... main6.s
+	@echo ... main5.obj
+	@echo ... main5.i
+	@echo ... main5.s
 .PHONY : help
 
 

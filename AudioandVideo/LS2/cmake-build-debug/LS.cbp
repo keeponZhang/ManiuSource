@@ -74,7 +74,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/codeWorkSpace/ManiuSource/AudioandVideo/LS2/main2.c">
+		<Unit filename="F:/codeWorkSpace/ManiuSource/AudioandVideo/LS2/demo2.c">
 			<Option target="LS"/>
 		</Unit>
 		<Unit filename="F:/codeWorkSpace/ManiuSource/AudioandVideo/LS2/CMakeLists.txt">

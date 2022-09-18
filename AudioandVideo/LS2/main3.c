@@ -22,6 +22,7 @@ int swap1(int *x, int *y) {
 //    java  不能实现
         int x = 2;
         int y = 4;
-        swap1(&x, &y);//0x00055FF1  0x00055FF2
+        swap(x,y);
+        //swap1(&x, &y);//0x00055FF1  0x00055FF2
         printf("x: %d y: %d\n", x, y);
     }

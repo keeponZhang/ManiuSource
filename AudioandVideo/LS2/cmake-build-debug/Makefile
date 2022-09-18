@@ -142,32 +142,32 @@ LS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS.dir\build.make CMakeFiles/LS.dir/build
 .PHONY : LS/fast
 
-main2.obj: main2.c.obj
+demo2.obj: demo2.c.obj
 
-.PHONY : main2.obj
+.PHONY : demo2.obj
 
 # target to build an object file
-main2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS.dir\build.make CMakeFiles/LS.dir/main2.c.obj
-.PHONY : main2.c.obj
+demo2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS.dir\build.make CMakeFiles/LS.dir/demo2.c.obj
+.PHONY : demo2.c.obj
 
-main2.i: main2.c.i
+demo2.i: demo2.c.i
 
-.PHONY : main2.i
+.PHONY : demo2.i
 
 # target to preprocess a source file
-main2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS.dir\build.make CMakeFiles/LS.dir/main2.c.i
-.PHONY : main2.c.i
+demo2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS.dir\build.make CMakeFiles/LS.dir/demo2.c.i
+.PHONY : demo2.c.i
 
-main2.s: main2.c.s
+demo2.s: demo2.c.s
 
-.PHONY : main2.s
+.PHONY : demo2.s
 
 # target to generate assembly for a file
-main2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS.dir\build.make CMakeFiles/LS.dir/main2.c.s
-.PHONY : main2.c.s
+demo2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS.dir\build.make CMakeFiles/LS.dir/demo2.c.s
+.PHONY : demo2.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LS
-	@echo ... main2.obj
-	@echo ... main2.i
-	@echo ... main2.s
+	@echo ... demo2.obj
+	@echo ... demo2.i
+	@echo ... demo2.s
 .PHONY : help
 
 
