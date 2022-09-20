@@ -59,10 +59,15 @@ void freeArray2(int **pArray, int n) {
 //        free(*(pArray+i))
     }
 }
+//这2个等价的
+//void fun(char **p);
+//void fun(char *p[100])
 void freeArray3(int **pArray, int n) {
     for (int i = 0; i < n; ++i) {
         //pArray[i] 就是 int*类型的
-        printf("freeArray addr i=%d %p   ",i,pArray[i]);
+        printf("freeArray addr i=%d %p   \n",i,pArray[i]);
+        printf("freeArray addr2 i=%d %p   \n  ",i,(*pArray)+i);
+        printf("-----------------------\n");
         free((pArray)[i]);
     }
 }

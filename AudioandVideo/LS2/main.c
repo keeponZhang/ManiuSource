@@ -132,6 +132,7 @@ void test05() {
 
 void test06() {
     char a[20] = "You_are_a_girl";
+    //这里可以这样理解，p是指针，要指向数组，而a就可以代表数组的地址
     char *p = a;
     char **ptr = &p;
     printf("a=0x%x\n", a);
