@@ -76,27 +76,27 @@ include CMakeFiles/LS5.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LS5.dir/flags.make
 
-CMakeFiles/LS5.dir/main.c.obj: CMakeFiles/LS5.dir/flags.make
-CMakeFiles/LS5.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\codeWorkSpace\ManiuSource\AudioandVideo\LS4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LS5.dir/main.c.obj"
-	E:\sofeware\clion\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LS5.dir\main.c.obj   -c F:\codeWorkSpace\ManiuSource\AudioandVideo\LS4\main.c
+CMakeFiles/LS5.dir/main2.c.obj: CMakeFiles/LS5.dir/flags.make
+CMakeFiles/LS5.dir/main2.c.obj: ../main2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\codeWorkSpace\ManiuSource\AudioandVideo\LS4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LS5.dir/main2.c.obj"
+	E:\sofeware\clion\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LS5.dir\main2.c.obj   -c F:\codeWorkSpace\ManiuSource\AudioandVideo\LS4\main2.c
 
-CMakeFiles/LS5.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LS5.dir/main.c.i"
-	E:\sofeware\clion\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\codeWorkSpace\ManiuSource\AudioandVideo\LS4\main.c > CMakeFiles\LS5.dir\main.c.i
+CMakeFiles/LS5.dir/main2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LS5.dir/main2.c.i"
+	E:\sofeware\clion\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\codeWorkSpace\ManiuSource\AudioandVideo\LS4\main2.c > CMakeFiles\LS5.dir\main2.c.i
 
-CMakeFiles/LS5.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LS5.dir/main.c.s"
-	E:\sofeware\clion\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\codeWorkSpace\ManiuSource\AudioandVideo\LS4\main.c -o CMakeFiles\LS5.dir\main.c.s
+CMakeFiles/LS5.dir/main2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LS5.dir/main2.c.s"
+	E:\sofeware\clion\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\codeWorkSpace\ManiuSource\AudioandVideo\LS4\main2.c -o CMakeFiles\LS5.dir\main2.c.s
 
 # Object files for target LS5
 LS5_OBJECTS = \
-"CMakeFiles/LS5.dir/main.c.obj"
+"CMakeFiles/LS5.dir/main2.c.obj"
 
 # External object files for target LS5
 LS5_EXTERNAL_OBJECTS =
 
-LS5.exe: CMakeFiles/LS5.dir/main.c.obj
+LS5.exe: CMakeFiles/LS5.dir/main2.c.obj
 LS5.exe: CMakeFiles/LS5.dir/build.make
 LS5.exe: CMakeFiles/LS5.dir/linklibs.rsp
 LS5.exe: CMakeFiles/LS5.dir/objects1.rsp

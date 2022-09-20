@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LS5.dir/main.c.obj"
+  "CMakeFiles/LS5.dir/main2.c.obj"
   "LS5.exe"
   "LS5.exe.manifest"
   "LS5.pdb"

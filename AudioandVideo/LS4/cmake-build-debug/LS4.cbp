@@ -74,7 +74,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/codeWorkSpace/ManiuSource/AudioandVideo/LS4/main.c">
+		<Unit filename="F:/codeWorkSpace/ManiuSource/AudioandVideo/LS4/main2.c">
 			<Option target="LS5"/>
 		</Unit>
 		<Unit filename="F:/codeWorkSpace/ManiuSource/AudioandVideo/LS4/CMakeLists.txt">

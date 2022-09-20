@@ -2,77 +2,124 @@
 
 
 void testOriginal() {
-//    10个字节
-    int a[3][4] = {1, 2, 3, 4, 5,8, 7, 8, 9, 10, 11, 12};
-
-//    a &a *a
-
-    printf("&a:%p\n", &a);
-    printf("a:%p\n", a);
-
-    printf("*a:%p\n",*a);
+    int a[3][4] = {1, 2, 3, 4, 5,6, 7, 8, 9, 10, 11, 12};
     printf("-----------------\n");
-    printf("*&a=%d\n ", sizeof(*&a));
-    printf("a=0x%x ",  &a );
-    printf("a+1=0x%x\n ", &a+1);
 
 
     printf("-----------------\n");//3*12
-    printf("*&a=%d\n ", sizeof(*a));
-    printf("a=0x%x ",  a );
-    printf("a+1=0x%x\n ", a+1);
+
     printf("-----------------\n");
-    printf("**a=%d\n ", sizeof(**a));
-    printf("a= %d ",  **a );
-    printf("a+1= %d\n ", **a+1);
+
 
 //   数组取值
-    printf(" value %d\n ", a[1][0]);
 
-//    指针法 数组指针  p  一行的首地址     &p 整个数组    *p 单个元素  p + 1
-//** 数组元素 p
-    int (*p)[4]=a;
-    printf(" value %d\n ", **(p + 1));
+
 
 //    printf(" value %d\n ",*(*(p+1))+1);
 
 
+
+}
+void test2() {
+    printf("---------test2---------------\n");
+    //    10个字节
+    int a[3][4] = {1, 2, 3, 4, 5,6, 7, 8, 9, 10, 11, 12};
+//    a &a *a
+    printf("&a:%p\n", &a);
+    printf("a:%p\n", a);
+    printf("*a:%p\n",*a);
+
+    printf("&a:%d\n", &a);
+    printf("a:%d\n", a);
+    printf("*a:%d\n",*a);
+}
+void test3() {
+    printf("---------test3---------------\n");
+    int a[3][4] = {1, 2, 3, 4, 5,6, 7, 8, 9, 10, 11, 12};
+    printf("sizeof(*&a) = %d \n", sizeof(*&a));
+    //相差48个字节
+    printf(" &a   = %p \n",  &a );
+    printf(" &a+1 = %p \n ", &a+1);
+    // 相差48个字节
+    printf(" &a   = %d \n",  &a );
+    printf(" &a+1 = %d \n ", &a+1);
+
+}
+void test4() {
+    printf("---------test4---------------\n");
+    int a[3][4] = {1, 2, 3, 4, 5,6, 7, 8, 9, 10, 11, 12};
+    printf("sizeof(*a)  =%d \n", sizeof(*a));
+    //相差16个字节
+    printf("a    = 0x%x \n",  a );
+    printf("a+1  = 0x%x  \n ", a+1 );
+    printf("a    = %d  \n",  a );
+    printf("a+1  = %d  \n", a+1 );
+}
+void test5() {
+    printf("---------test5---------------\n");
+    int a[3][4] = {1, 2, 3, 4, 5,6, 7, 8, 9, 10, 11, 12};
+    printf(" sizeof(**a)   = %d\n ", sizeof(**a));
+    printf("a= %d\n ",  **a );
+    printf("a+1= %d\n ", **a+1);
+}
+void test6() {
+    printf("---------test6 下标法---------------\n");
+    int a[3][4] = {1, 2, 3, 4, 5,6, 7, 8, 9, 10, 11, 12};
+    printf("a[1][0] value = %d\n ", a[1][0]);
+
+}
+void test7() {
+    printf("---------test7 指针法---------------\n");
+//    指针法 数组指针  p  一行的首地址     &p 整个数组    *p 单个元素  p + 1
+//** 数组元素 p
+    int a[3][4] = {1, 2, 3, 4, 5,6, 7, 8, 9, 10, 11, 12};
+    printf("a    = %d  \n", a );
+    printf("a+1    = %d  \n", a+1 );
+    int (*p)[4]=a;
+    //相差16
+    printf("---------p+1---------------\n");
+    printf("sizeof(*p)    = %d  \n", sizeof(*p) );
+    printf("p    = %d  \n", p );
+    printf("p+1  = %d  \n", p+1 );
+    //相差16
+    printf("---------*p+1---------------\n");
+    printf("sizeof(**p)    = %d  \n", sizeof(**p) );
+    printf("*p    = %d  \n", *p );
+    printf("*p+1    = %d  \n", *p+1 );
+    //
+    printf("---------*(p+1)---------------\n");
+    printf("*p    = %d  \n", *p );
+    printf("*(p+1)    = %d  \n", *(p+1) );
+    //1
+    printf(" **(p) value %d \n", **(p));
+    //5
+    printf(" **(p) value %d \n", **(p + 1));
+
+}
+void test8(){
+    printf("---------test8---------------\n");
+    int a[3][4] = {1, 2, 3, 4, 5,6, 7, 8, 9, 10, 11, 12};
+    int (*p)[4]=a;
+    //相当于下面这样
+    //int (*p)[4]={{1, 2, 3, 4}, {5,6, 7, 8}, 9, {10, 11, 12}};
     printf(" value %d\n ",*(*(p+1)+1));
     printf(" value %d\n ",*(*(p+1))+1);
-
 //    混着用
 // 数组 执政
-//
+    printf("---------for---------------\n");
     for(int i=0; i<3; i++){
         for(int j=0; j<4; j++)
             printf("value :%d\n",*(*(p+i)+j));
     }
 }
-void test2() {
-    printf("---------test2---------------\n");
-}
-void test3() {
-    printf("---------test3---------------\n");
-}
-void test4() {
-    printf("---------test4---------------\n");
-}
-void test5() {
-    printf("---------test5---------------\n");
-}
-void test6() {
-    printf("---------test6---------------\n");
-}
-void test7() {
-    printf("---------test7---------------\n");
-}
 int main() {
-    test2();
-    test3();
-    test4();
-    test5();
-    test6();
+    //test2();
+    //test3();
+    //test4();
+    //test5();
+    //test6();
     test7();
+    //test8();
 
 
 

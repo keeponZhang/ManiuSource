@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "F:/codeWorkSpace/ManiuSource/AudioandVideo/LS4/main.c" "F:/codeWorkSpace/ManiuSource/AudioandVideo/LS4/cmake-build-debug/CMakeFiles/LS5.dir/main.c.obj"
+  "F:/codeWorkSpace/ManiuSource/AudioandVideo/LS4/main2.c" "F:/codeWorkSpace/ManiuSource/AudioandVideo/LS4/cmake-build-debug/CMakeFiles/LS5.dir/main2.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
