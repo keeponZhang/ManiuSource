@@ -6,10 +6,8 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Administrator/CLionProjects/LS6/main3.c
+F:/codeWorkSpace/ManiuSource/AudioandVideo/LS6/main2.c
 stdio.h
--
-sys/stat.h
 -
 malloc.h
 -

@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Administrator/CLionProjects/LS5Maniu/main3.c
+F:/codeWorkSpace/ManiuSource/AudioandVideo/LS5Maniu/main1.c
 stdio.h
 -
+string.h
+F:/codeWorkSpace/ManiuSource/AudioandVideo/LS5Maniu/string.h
 

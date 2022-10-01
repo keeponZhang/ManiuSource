@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-F:/codeWorkSpace/ManiuSource/AudioandVideo/LS4/main2.c
+F:/codeWorkSpace/ManiuSource/AudioandVideo/LS4/main7.c
 stdio.h
+-
+stdlib.h
+-
+string.h
 -
 

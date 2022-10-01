@@ -3,4 +3,4 @@ project(LS5Maniu C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(LS5Maniu main3.c)
+add_executable(LS5Maniu main1.c)

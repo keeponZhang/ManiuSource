@@ -1,0 +1,4 @@
+E:\sofeware\clion\software\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=E:/sofeware/clion/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=E:/sofeware/clion/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" F:\codeWorkSpace\ManiuSource\AudioandVideo\LS8
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/codeWorkSpace/ManiuSource/AudioandVideo/LS8/cmake-build-debug

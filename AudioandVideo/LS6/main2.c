@@ -4,6 +4,7 @@
 //c---->.o---->.exe
 //java -class- jar
 int main1() {
+    printf("---------main1---------------\n");
     printf("file write\n");
     FILE *p = fopen("./test/maniu.txt", "w");
     if (p) {
@@ -17,9 +18,14 @@ int main1() {
     return 0;
 }
 //读文件
+int main2() {
+    printf("---------main2---------------\n");
+}
+//读文件
 int main3() {
+    printf("---------main3---------------\n");
     printf("file read\n");
-    FILE *p = fopen("./test/maniu.txt","r");
+    FILE *p = fopen("./test/maniu.txt", "r");
 
     if (p) {
         char c = fgetc(p);
@@ -29,10 +35,12 @@ int main3() {
 //        p 悬空指针
     p = NULL;
 }
+
 //循环读文件
 int main4() {
+    printf("---------main4---------------\n");
     printf("file read\n");
-    FILE *p = fopen("./test/maniu.txt","r");
+    FILE *p = fopen("./test/maniu.txt", "r");
     if (p) {
         while (1) {
             char c = fgetc(p);
@@ -46,8 +54,10 @@ int main4() {
 //        p 悬空指针
     p = NULL;
 }
+
 //写文件
 int main5() {
+    printf("---------main5---------------\n");
     printf("file write\n");
 
     FILE *p = fopen("./test/maniu.txt", "w");
@@ -57,12 +67,14 @@ int main5() {
         p = NULL;
     }
 }
+
 //copy文件
-int main6(){
+int main6() {
+    printf("---------main6---------------\n");
     printf("file copy\n");
     FILE *p = fopen("./test/maniu.txt", "r");
     FILE *p1 = fopen("./test/write.txt", "w");
-    if (p == NULL||p1 == NULL) {
+    if (p == NULL || p1 == NULL) {
         return -1;
     }
     while (1) {
@@ -77,7 +89,8 @@ int main6(){
     p = NULL;
     p1 = NULL;
 }
-int cacl(int a,char b,int c){
+
+int cacl(int a, char b, int c) {
     int result = 0;
     switch (b) {
         case '+':
@@ -98,6 +111,19 @@ int cacl(int a,char b,int c){
 }
 
 int main() {
+    //main1();
+    //main2();
+    main3();
+    main4();
+    main5();
+    main6();
+
+}
+
+void testOriginal() {
+    // 字符串读写       二进制的读写
+//视频文件  声音   写到
+//剪影        视频 --》音频 pcm--》
     printf("file copy\n");
     FILE *p = fopen("./test/maniu.txt", "r");
 
@@ -120,8 +146,4 @@ int main() {
         fclose(p);
         p = NULL;
     }
-// 字符串读写       二进制的读写
-//视频文件  声音   写到
-//剪影        视频 --》音频 pcm--》
 }
-

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/codeWorkSpace/ManiuSource/AudioandVideo/LS8/Maniu.cpp
+include/Maniu.h
+F:/codeWorkSpace/ManiuSource/AudioandVideo/LS8/include/Maniu.h
+
+F:/codeWorkSpace/ManiuSource/AudioandVideo/LS8/include/Maniu.h
+
+F:/codeWorkSpace/ManiuSource/AudioandVideo/LS8/main2.cpp
+iostream
+-
+include/Maniu.h
+F:/codeWorkSpace/ManiuSource/AudioandVideo/LS8/include/Maniu.h
+

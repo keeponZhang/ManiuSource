@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LS5Maniu.dir/main3.c.obj"
+  "CMakeFiles/LS5Maniu.dir/main1.c.obj"
   "LS5Maniu.exe"
   "LS5Maniu.exe.manifest"
   "LS5Maniu.pdb"

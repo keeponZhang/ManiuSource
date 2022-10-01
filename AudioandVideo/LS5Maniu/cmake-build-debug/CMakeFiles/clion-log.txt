@@ -1,4 +1,4 @@
-"D:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=D:/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" C:\Users\Administrator\CLionProjects\LS5Maniu
+E:\sofeware\clion\software\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=E:/sofeware/clion/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=E:/sofeware/clion/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" F:\codeWorkSpace\ManiuSource\AudioandVideo\LS5Maniu
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Administrator/CLionProjects/LS5Maniu/cmake-build-debug
+-- Build files have been written to: F:/codeWorkSpace/ManiuSource/AudioandVideo/LS5Maniu/cmake-build-debug

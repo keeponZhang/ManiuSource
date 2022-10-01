@@ -13,6 +13,7 @@ int main(int argc, char** argv) {
     if (pr == NULL) return 0;
     if(pw == NULL) return 0;
     struct  stat st={0};
+    //能够读出文件的大小
     stat(argv[1], &st);
     int size = st.st_size;
     if(size >BLOCK_SIZE) {
