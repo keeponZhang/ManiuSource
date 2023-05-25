@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Administrator/CLionProjects/LS23/include/test1.c" "C:/Users/Administrator/CLionProjects/LS23/cmake-build-debug/CMakeFiles/LS23.dir/include/test1.c.obj"
-  "C:/Users/Administrator/CLionProjects/LS23/main.c" "C:/Users/Administrator/CLionProjects/LS23/cmake-build-debug/CMakeFiles/LS23.dir/main.c.obj"
+  "F:/codeWorkSpace/ManiuSource/AudioandVideo/LS17/code/LS23/include/test1.c" "F:/codeWorkSpace/ManiuSource/AudioandVideo/LS17/code/LS23/cmake-build-debug/CMakeFiles/LS23.dir/include/test1.c.obj"
+  "F:/codeWorkSpace/ManiuSource/AudioandVideo/LS17/code/LS23/main.c" "F:/codeWorkSpace/ManiuSource/AudioandVideo/LS17/code/LS23/cmake-build-debug/CMakeFiles/LS23.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

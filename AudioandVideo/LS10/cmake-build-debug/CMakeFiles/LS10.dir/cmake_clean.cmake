@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LS10.dir/ArrayList.cpp.obj"
-  "CMakeFiles/LS10.dir/main5.cpp.obj"
+  "CMakeFiles/LS10.dir/main3.cpp.obj"
   "LS10.exe"
   "LS10.exe.manifest"
   "LS10.pdb"

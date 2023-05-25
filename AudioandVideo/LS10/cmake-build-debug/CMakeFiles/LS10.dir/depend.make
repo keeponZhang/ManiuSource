@@ -4,5 +4,6 @@
 CMakeFiles/LS10.dir/ArrayList.cpp.obj: ../ArrayList.cpp
 CMakeFiles/LS10.dir/ArrayList.cpp.obj: ../ArrayList.h
 
-CMakeFiles/LS10.dir/main5.cpp.obj: ../main5.cpp
+CMakeFiles/LS10.dir/main3.cpp.obj: ../ArrayList.h
+CMakeFiles/LS10.dir/main3.cpp.obj: ../main3.cpp
 

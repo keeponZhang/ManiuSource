@@ -171,18 +171,6 @@ void testMain6() {
 void testMain7() {
     printf("---------testMain7---------------\n");
 }
-
-
-
-
-
-
-//int main8() {
-////    堆区1  栈区  2 maniu栈区
-
-////    func3("C");
-//}
-
 int main() {
     //testMain2();
     //testMain3();

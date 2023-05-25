@@ -44,6 +44,7 @@ void LaoWang::visit()
 
 void LaoWang::visit2(){
     cout << "age:" << this->xifu->age << endl;
+//    这个不是友元函数，不能访问
 //    cout << "name:" << this->xifu->name << endl;  //不行的
 
 }

@@ -9,7 +9,7 @@
 class ArrayList {
 public:
     ArrayList();
-//    不能通过隐士调用
+//    不能通过隐式调用
     explicit ArrayList(int capacity);
     ArrayList(const ArrayList &arrayList);
 //    要是
@@ -35,7 +35,7 @@ public:
 private:
 //    数组.length（）
     int size;
-    int actulSize;
+    int actualSize;
 //    int arr[] ;//1    2   int *[]
     int *arr;//常量
 };

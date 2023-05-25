@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2020.2.5\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\H265SPS.dir/objects.a
+D:\mingw64\bin\ar.exe cr CMakeFiles\H265SPS.dir/objects.a @CMakeFiles\H265SPS.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\H265SPS.dir/objects.a -Wl,--no-whole-archive  -o H265SPS.exe -Wl,--out-implib,libH265SPS.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\H265SPS.dir\linklibs.rsp

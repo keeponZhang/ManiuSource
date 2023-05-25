@@ -8,7 +8,7 @@
 using namespace std;
 //拷贝函数
 ArrayList::ArrayList(int capacity) {
-    this->actulSize = 0;
+    this->actualSize = 0;
     this->size = capacity;
     this->arr = new int[this->size];//new  delete  / malloc  free
 }
@@ -24,13 +24,13 @@ ArrayList::~ArrayList() {
 
 ArrayList::ArrayList() {
     this->size = 16;
-    this->actulSize = 0;
+    this->actualSize = 0;
     this->arr = new int[this->size];
 }
 
 //拷贝构造函数
 ArrayList::ArrayList(const ArrayList &arr) {
-    this->actulSize = arr.actulSize;
+    this->actualSize = arr.actualSize;
     this->size = arr.size;
     this->arr = new int[arr.size];
     for (int i = 0; i < size; ++i) {
@@ -39,8 +39,8 @@ ArrayList::ArrayList(const ArrayList &arr) {
 }
 
 void ArrayList::add(int val) {
-//    actulSize 最后一个位置  0
-    add(val, actulSize);
+//    actualSize 最后一个位置  0
+    add(val, actualSize);
 }
 
 void ArrayList::add(int val, int index) {
@@ -48,19 +48,20 @@ void ArrayList::add(int val, int index) {
         return;
     }
 //    扩容 ---》   0.75
-    if (this->actulSize>=size) {
+    if (this->actualSize>=size) {
         resize();
     }
 //    下标法    地址法
 //   (*( this->arr+index)) = val;
     this->arr[index] = val;
-    actulSize++;
+    actualSize++;
 
 }
 
 void ArrayList::resize() {
     cout << "----------------resize-------" << endl;
     int neLength = size * 2;
+    //new一个更大的数组
     int *p = new int[neLength];
     for (int i = 0; i < size; ++i) {
         *(p + i) = arr[i];
@@ -87,20 +88,20 @@ void ArrayList::remove(int index) {
     for (int i = index; i <size-1 ; ++i) {
         arr[i] = arr[i + 1];
     }
-    actulSize--;
+    actualSize--;
 }
 
 int ArrayList::getLength() {
-    return actulSize;
+    return actualSize;
 }
 
 bool ArrayList::isEmpty() {
-    return actulSize == 0;
+    return actualSize == 0;
 }
 
 void ArrayList::toString() {
     cout<<"[ ";
-    for (int i = 0; i < actulSize; i++) {
+    for (int i = 0; i < actualSize; i++) {
         cout << arr[i] <<" , " ;
     }
     cout<<"]"<<endl;//flush

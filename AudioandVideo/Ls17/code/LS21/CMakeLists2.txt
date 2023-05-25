@@ -6,6 +6,7 @@ set(CMAKE_C_STANDARD 99)
 message("-------------")
 MESSAGE("=============")
 #取内置变量   LS21 + _SOURCE_DIR
+#工程根目录
 message(STATUS,"-----------",${LS21_SOURCE_DIR})
 
 # 系统内置变量

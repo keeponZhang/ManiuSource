@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = E:\sofeware\clion\software\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = E:\sofeware\clion\software\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Administrator\CLionProjects\LS10
+CMAKE_SOURCE_DIR = F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Administrator\CLionProjects\LS10\cmake-build-debug
+CMAKE_BINARY_DIR = F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LS10.dir/depend.make
@@ -76,47 +76,47 @@ include CMakeFiles/LS10.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LS10.dir/flags.make
 
-CMakeFiles/LS10.dir/main5.cpp.obj: CMakeFiles/LS10.dir/flags.make
-CMakeFiles/LS10.dir/main5.cpp.obj: ../main5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\CLionProjects\LS10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LS10.dir/main5.cpp.obj"
-	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LS10.dir\main5.cpp.obj -c C:\Users\Administrator\CLionProjects\LS10\main5.cpp
+CMakeFiles/LS10.dir/main3.cpp.obj: CMakeFiles/LS10.dir/flags.make
+CMakeFiles/LS10.dir/main3.cpp.obj: ../main3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LS10.dir/main3.cpp.obj"
+	E:\sofeware\clion\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LS10.dir\main3.cpp.obj -c F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\main3.cpp
 
-CMakeFiles/LS10.dir/main5.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LS10.dir/main5.cpp.i"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\CLionProjects\LS10\main5.cpp > CMakeFiles\LS10.dir\main5.cpp.i
+CMakeFiles/LS10.dir/main3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LS10.dir/main3.cpp.i"
+	E:\sofeware\clion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\main3.cpp > CMakeFiles\LS10.dir\main3.cpp.i
 
-CMakeFiles/LS10.dir/main5.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LS10.dir/main5.cpp.s"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\CLionProjects\LS10\main5.cpp -o CMakeFiles\LS10.dir\main5.cpp.s
+CMakeFiles/LS10.dir/main3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LS10.dir/main3.cpp.s"
+	E:\sofeware\clion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\main3.cpp -o CMakeFiles\LS10.dir\main3.cpp.s
 
 CMakeFiles/LS10.dir/ArrayList.cpp.obj: CMakeFiles/LS10.dir/flags.make
 CMakeFiles/LS10.dir/ArrayList.cpp.obj: ../ArrayList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\CLionProjects\LS10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LS10.dir/ArrayList.cpp.obj"
-	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LS10.dir\ArrayList.cpp.obj -c C:\Users\Administrator\CLionProjects\LS10\ArrayList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LS10.dir/ArrayList.cpp.obj"
+	E:\sofeware\clion\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LS10.dir\ArrayList.cpp.obj -c F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\ArrayList.cpp
 
 CMakeFiles/LS10.dir/ArrayList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LS10.dir/ArrayList.cpp.i"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\CLionProjects\LS10\ArrayList.cpp > CMakeFiles\LS10.dir\ArrayList.cpp.i
+	E:\sofeware\clion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\ArrayList.cpp > CMakeFiles\LS10.dir\ArrayList.cpp.i
 
 CMakeFiles/LS10.dir/ArrayList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LS10.dir/ArrayList.cpp.s"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\CLionProjects\LS10\ArrayList.cpp -o CMakeFiles\LS10.dir\ArrayList.cpp.s
+	E:\sofeware\clion\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\ArrayList.cpp -o CMakeFiles\LS10.dir\ArrayList.cpp.s
 
 # Object files for target LS10
 LS10_OBJECTS = \
-"CMakeFiles/LS10.dir/main5.cpp.obj" \
+"CMakeFiles/LS10.dir/main3.cpp.obj" \
 "CMakeFiles/LS10.dir/ArrayList.cpp.obj"
 
 # External object files for target LS10
 LS10_EXTERNAL_OBJECTS =
 
-LS10.exe: CMakeFiles/LS10.dir/main5.cpp.obj
+LS10.exe: CMakeFiles/LS10.dir/main3.cpp.obj
 LS10.exe: CMakeFiles/LS10.dir/ArrayList.cpp.obj
 LS10.exe: CMakeFiles/LS10.dir/build.make
 LS10.exe: CMakeFiles/LS10.dir/linklibs.rsp
 LS10.exe: CMakeFiles/LS10.dir/objects1.rsp
 LS10.exe: CMakeFiles/LS10.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Administrator\CLionProjects\LS10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LS10.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LS10.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LS10.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +129,6 @@ CMakeFiles/LS10.dir/clean:
 .PHONY : CMakeFiles/LS10.dir/clean
 
 CMakeFiles/LS10.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Administrator\CLionProjects\LS10 C:\Users\Administrator\CLionProjects\LS10 C:\Users\Administrator\CLionProjects\LS10\cmake-build-debug C:\Users\Administrator\CLionProjects\LS10\cmake-build-debug C:\Users\Administrator\CLionProjects\LS10\cmake-build-debug\CMakeFiles\LS10.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10 F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10 F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\cmake-build-debug F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\cmake-build-debug F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\cmake-build-debug\CMakeFiles\LS10.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LS10.dir/depend
 

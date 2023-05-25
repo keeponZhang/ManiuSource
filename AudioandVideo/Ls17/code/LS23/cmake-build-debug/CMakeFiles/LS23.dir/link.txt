@@ -1,2 +1,2 @@
-D:\mingw64\bin\ar.exe qc ..\lib\libLS23.a  CMakeFiles/LS23.dir/main.c.obj CMakeFiles/LS23.dir/include/test1.c.obj
-D:\mingw64\bin\ranlib.exe ..\lib\libLS23.a
+E:\sofeware\clion\mingw64\bin\ar.exe qc ..\lib\libLS23.a  CMakeFiles/LS23.dir/main.c.obj CMakeFiles/LS23.dir/include/test1.c.obj
+E:\sofeware\clion\mingw64\bin\ranlib.exe ..\lib\libLS23.a

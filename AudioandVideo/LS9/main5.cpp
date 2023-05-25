@@ -14,7 +14,7 @@ public:
 //        this->b = b;
 //        this->c = c;
 //    }
-
+//    参数列表
     Person():a(10),b(20),c(30){
 }
     Person(int a,int b,int c):a(a),b(b),c(c){

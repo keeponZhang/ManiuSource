@@ -1,0 +1,3 @@
+E:\sofeware\clion\software\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\LS21.dir/objects.a
+E:\sofeware\clion\mingw64\bin\ar.exe cr CMakeFiles\LS21.dir/objects.a @CMakeFiles\LS21.dir\objects1.rsp
+E:\sofeware\clion\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\LS21.dir/objects.a -Wl,--no-whole-archive  -o LS21.exe -Wl,--out-implib,libLS21.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LS21.dir\linklibs.rsp

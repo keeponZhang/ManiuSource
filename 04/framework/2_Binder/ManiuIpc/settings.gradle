@@ -1,0 +1,4 @@
+rootProject.name = "ManiuIpc"
+include ':app'
+include ':ipclib'
+include ':moudle4'

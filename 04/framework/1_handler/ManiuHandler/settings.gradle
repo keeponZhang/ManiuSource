@@ -1,0 +1,3 @@
+include ':HandlerManiu'
+include ':app'
+rootProject.name = "ManiuHandler"

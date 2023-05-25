@@ -10,10 +10,11 @@ message(STATUS,"-----------",${LS21_SOURCE_DIR})
 
 # 系统内置变量
 
-set()
+#set()
 
 message("build  "+ ${PROJECT_BINARY_DIR})
 
+#把整个文件夹包含进来
 include_directories(
         include
 )

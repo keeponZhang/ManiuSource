@@ -58,19 +58,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = E:\sofeware\clion\software\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = E:\sofeware\clion\software\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Administrator\CLionProjects\LS10
+CMAKE_SOURCE_DIR = F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Administrator\CLionProjects\LS10\cmake-build-debug
+CMAKE_BINARY_DIR = F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = C:\Users\Administrator\CLionProjects\LS10\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	E:\sofeware\clion\software\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	E:\sofeware\clion\software\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\CLionProjects\LS10\cmake-build-debug\CMakeFiles C:\Users\Administrator\CLionProjects\LS10\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\cmake-build-debug\CMakeFiles F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\CLionProjects\LS10\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\codeWorkSpace\ManiuSource\AudioandVideo\LS10\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,32 +169,32 @@ ArrayList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS10.dir\build.make CMakeFiles/LS10.dir/ArrayList.cpp.s
 .PHONY : ArrayList.cpp.s
 
-main5.obj: main5.cpp.obj
+main3.obj: main3.cpp.obj
 
-.PHONY : main5.obj
+.PHONY : main3.obj
 
 # target to build an object file
-main5.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS10.dir\build.make CMakeFiles/LS10.dir/main5.cpp.obj
-.PHONY : main5.cpp.obj
+main3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS10.dir\build.make CMakeFiles/LS10.dir/main3.cpp.obj
+.PHONY : main3.cpp.obj
 
-main5.i: main5.cpp.i
+main3.i: main3.cpp.i
 
-.PHONY : main5.i
+.PHONY : main3.i
 
 # target to preprocess a source file
-main5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS10.dir\build.make CMakeFiles/LS10.dir/main5.cpp.i
-.PHONY : main5.cpp.i
+main3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS10.dir\build.make CMakeFiles/LS10.dir/main3.cpp.i
+.PHONY : main3.cpp.i
 
-main5.s: main5.cpp.s
+main3.s: main3.cpp.s
 
-.PHONY : main5.s
+.PHONY : main3.s
 
 # target to generate assembly for a file
-main5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS10.dir\build.make CMakeFiles/LS10.dir/main5.cpp.s
-.PHONY : main5.cpp.s
+main3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LS10.dir\build.make CMakeFiles/LS10.dir/main3.cpp.s
+.PHONY : main3.cpp.s
 
 # Help Target
 help:
@@ -208,9 +208,9 @@ help:
 	@echo ... ArrayList.obj
 	@echo ... ArrayList.i
 	@echo ... ArrayList.s
-	@echo ... main5.obj
-	@echo ... main5.i
-	@echo ... main5.s
+	@echo ... main3.obj
+	@echo ... main3.i
+	@echo ... main3.s
 .PHONY : help
 
 

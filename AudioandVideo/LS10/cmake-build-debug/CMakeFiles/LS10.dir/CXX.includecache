@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Administrator/CLionProjects/LS10/ArrayList.cpp
-cstdio
+F:/codeWorkSpace/ManiuSource/AudioandVideo/LS10/ArrayList.h
+
+F:/codeWorkSpace/ManiuSource/AudioandVideo/LS10/main3.cpp
+iostream
 -
 ArrayList.h
-C:/Users/Administrator/CLionProjects/LS10/ArrayList.h
+F:/codeWorkSpace/ManiuSource/AudioandVideo/LS10/ArrayList.h
 iostream
-C:/Users/Administrator/CLionProjects/LS10/iostream
-
-C:/Users/Administrator/CLionProjects/LS10/ArrayList.h
+F:/codeWorkSpace/ManiuSource/AudioandVideo/LS10/iostream
 

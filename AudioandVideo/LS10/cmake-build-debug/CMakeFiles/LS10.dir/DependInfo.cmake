@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Administrator/CLionProjects/LS10/ArrayList.cpp" "C:/Users/Administrator/CLionProjects/LS10/cmake-build-debug/CMakeFiles/LS10.dir/ArrayList.cpp.obj"
-  "C:/Users/Administrator/CLionProjects/LS10/main5.cpp" "C:/Users/Administrator/CLionProjects/LS10/cmake-build-debug/CMakeFiles/LS10.dir/main5.cpp.obj"
+  "F:/codeWorkSpace/ManiuSource/AudioandVideo/LS10/ArrayList.cpp" "F:/codeWorkSpace/ManiuSource/AudioandVideo/LS10/cmake-build-debug/CMakeFiles/LS10.dir/ArrayList.cpp.obj"
+  "F:/codeWorkSpace/ManiuSource/AudioandVideo/LS10/main3.cpp" "F:/codeWorkSpace/ManiuSource/AudioandVideo/LS10/cmake-build-debug/CMakeFiles/LS10.dir/main3.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

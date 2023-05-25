@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/codeWorkSpace/ManiuSource/AudioandVideo/LS12/main3.cpp
+iostream
+-
+string.h
+F:/codeWorkSpace/ManiuSource/AudioandVideo/LS12/string.h
+

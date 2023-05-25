@@ -18,7 +18,10 @@ include_directories(
         include
 )
 #set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
-#系统变量  声明自己变量
+#系统变量  声明自己变量（不能用逗号）
 set(SRC_LIST main.c include/test1.c)
 #默认是生成静态库
+#add_library(LS21 ${SRC_LIST})
+#动态库（是基于静态库生成的，先生成静态库，再生成动态库）
+#add_library(LS21 SHARED  ${SRC_LIST})
 add_executable(LS21 ${SRC_LIST})

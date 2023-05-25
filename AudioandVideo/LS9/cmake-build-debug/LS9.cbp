@@ -8,82 +8,82 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug"/>
+				<Option working_dir="F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LS9">
-				<Option output="C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/LS9.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug"/>
+				<Option output="F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/LS9.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="E:/sofeware/clion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/sofeware/clion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/sofeware/clion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/sofeware/clion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/sofeware/clion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/sofeware/clion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 LS9"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 LS9"/>
+					<CompileFile command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LS9/fast">
-				<Option output="C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/LS9.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug"/>
+				<Option output="F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/LS9.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="E:/sofeware/clion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/sofeware/clion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/sofeware/clion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/sofeware/clion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/sofeware/clion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/sofeware/clion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 LS9/fast"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 LS9/fast"/>
+					<CompileFile command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug"/>
+				<Option working_dir="F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug"/>
+				<Option working_dir="F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/sofeware/clion/mingw64/bin/mingw32-make.exe -f &quot;F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Administrator/CLionProjects/LS9/main6.cpp">
+		<Unit filename="F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/main6.cpp">
 			<Option target="LS9"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/CLionProjects/LS9/CMakeLists.txt">
+		<Unit filename="F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

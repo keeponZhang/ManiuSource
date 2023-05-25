@@ -45,6 +45,9 @@ Xifu::Xifu() {
 void test01() {
     LaoWang gg;
     gg.visit();
+    //这里不能访问name
+    //Xifu xifu =  Xifu();
+    //xifu.name;
 }
 
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Administrator/CLionProjects/LS9/main6.cpp" "C:/Users/Administrator/CLionProjects/LS9/cmake-build-debug/CMakeFiles/LS9.dir/main6.cpp.obj"
+  "F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/main6.cpp" "F:/codeWorkSpace/ManiuSource/AudioandVideo/LS9/cmake-build-debug/CMakeFiles/LS9.dir/main6.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
